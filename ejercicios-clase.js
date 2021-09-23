@@ -59,6 +59,7 @@ if (number1 < number2) {
 for (i=1;i<=6;i++) {
     document.write("<H" + i + "> Encabezado de nivel " + i + "<H" + i + ">");
 }
+
         
 
 
