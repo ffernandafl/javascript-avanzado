@@ -62,9 +62,9 @@ for (numeros=2;numeros < introduce/2; numeros++) {
     }
 }
  */
-const numero = parseInt(prompt('Introduce un numero'));
+let numero = parseInt(prompt('Introduce un numero'));
 
-for(let i = 0; i <= numero; i++){
+for(let i = 1 ; i <= numero; i++){
     if(numero % i === 0){
         document.write(i + "</br>");
     }
